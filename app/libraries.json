@@ -1,0 +1,50 @@
+[
+  {
+    "artifactId": "kotlin-stdlib",
+    "excludes": [],
+    "groupId": "org.jetbrains.kotlin",
+    "versionName": "1.7.0"
+  },
+  {
+    "artifactId": "appcompat",
+    "excludes": [],
+    "groupId": "androidx.appcompat",
+    "versionName": "1.6.1"
+  },
+  {
+    "artifactId": "material",
+    "excludes": [],
+    "groupId": "com.google.android.material",
+    "versionName": "1.6.0"
+  },
+  {
+    "artifactId": "constraintlayout",
+    "excludes": [],
+    "groupId": "androidx.constraintlayout",
+    "versionName": "2.1.4"
+  },
+  {
+    "artifactId": "recyclerview",
+    "excludes": [],
+    "groupId": "androidx.recyclerview",
+    "versionName": "1.2.1"
+  },
+  {
+    "artifactId": "core-splashscreen",
+    "excludes": [],
+    "groupId": "androidx.core",
+    "versionName": "1.0.0"
+  },
+  {
+    "artifactId": "glide",
+    "excludes": [],
+    "groupId": "com.github.bumptech.glide",
+    "versionName": "4.12.0"
+  },
+  {
+    "artifactId": "okhttp",
+    "excludes": [],
+    "groupId": "com.squareup.okhttp3",
+    "versionName": "4.9.2"
+  }
+]

@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Font Family -->
+        <item name="android:fontFamily">@font/inter</item>
+
+        <!-- Auto Filled Highlight Drawable -->
+        <item name="android:autofilledHighlight">@android:color/transparent</item>
+
+        <!-- Change the color of the navigation bar -->
+        <item name="android:navigationBarColor">@color/black</item>
+
+        <!-- Change the color of the status bar -->
+        <item name="android:statusBarColor">@color/black</item>
+
+        <!-- Splash Screen -->
+        <item name="android:windowSplashScreenBackground">@color/surface</item>
+    </style>
+
+</resources>

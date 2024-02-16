@@ -1,0 +1,246 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ui.activitys.SettingsActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:elevation="0dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="0dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/btn_arrow_back_settings"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="start"
+                android:layout_margin="30dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/background_textview_rippler"
+                android:clickable="true"
+                android:elevation="20dp"
+                android:focusable="true"
+                android:src="@drawable/ic_arrow_back"
+                android:tint="@color/primary"
+                tools:ignore="UseAppTint" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imageView_avatar_settings"
+                android:layout_width="150dp"
+                android:layout_height="151dp"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:src="@drawable/avatar"
+                app:shapeAppearanceOverlay="@style/CircleImageViewStyle"
+                app:strokeColor="@color/primary"
+                app:strokeWidth="3dp" />
+
+            <TextView
+                android:id="@+id/textView_username_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Antonio Albert M C"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView_cpf_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:text="@string/fake_cpf"
+                android:textColor="#CCFFFFFF"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/background_rounded_primary"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="@drawable/foreground_rippler_effect_button"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/btn_edit_perfil"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/background_rounded_white_10_20"
+                android:orientation="vertical"
+                android:padding="15dp" >
+
+                <com.economix.ecopoints.ui.custom.ConfigOptionSwitch
+                    android:id="@+id/config_option_switch_dark_mode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/ic_dark_mode"
+                    app:subtitle="@string/dark_mode_description"
+                    app:title="@string/dark_mode" />
+
+                <com.google.android.material.divider.MaterialDivider
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    app:dividerColor="#80808080"
+                    app:dividerInsetEnd="15dp"
+                    app:dividerInsetStart="15dp" />
+
+                <com.economix.ecopoints.ui.custom.ConfigOptionSwitch
+                    android:id="@+id/config_option_switch_notifications"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/ic_notifications_active"
+                    app:subtitle="@string/notifications_description"
+                    app:title="@string/notifications" />
+
+                <com.google.android.material.divider.MaterialDivider
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    app:dividerColor="#80808080"
+                    app:dividerInsetEnd="15dp"
+                    app:dividerInsetStart="15dp" />
+
+                <com.economix.ecopoints.ui.custom.ConfigOptionSwitch
+                    android:id="@+id/config_option_switch_location_access"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/ic_location"
+                    app:subtitle="@string/location_access_description"
+                    app:title="@string/location_access" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/background_rounded_white_10_20"
+                android:orientation="vertical"
+                android:padding="15dp" >
+
+                <com.economix.ecopoints.ui.custom.ConfigOpenOption
+                    android:id="@+id/config_option_switch_theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/ic_palette"
+                    app:subtitle="@string/theme_description"
+                    app:title="@string/theme" />
+
+                <com.google.android.material.divider.MaterialDivider
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    app:dividerColor="#80808080"
+                    app:dividerInsetEnd="15dp"
+                    app:dividerInsetStart="15dp" />
+
+                <com.economix.ecopoints.ui.custom.ConfigOpenOption
+                    android:id="@+id/config_option_switch_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/ic_languages"
+                    app:subtitle="@string/language_description"
+                    app:title="@string/language" />
+
+                <com.google.android.material.divider.MaterialDivider
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    app:dividerColor="#80808080"
+                    app:dividerInsetEnd="15dp"
+                    app:dividerInsetStart="15dp" />
+
+                <com.economix.ecopoints.ui.custom.ConfigOpenOption
+                    android:id="@+id/config_option_switch_sync_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/ic_sync"
+                    app:subtitle="@string/sync_data_description"
+                    app:title="@string/sync_data" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/background_rounded_white_10_20"
+                android:orientation="vertical"
+                android:padding="15dp" >
+
+                <com.economix.ecopoints.ui.custom.ConfigOpenOption
+                    android:id="@+id/config_option_switch_about_project"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/ic_website"
+                    app:subtitle="@string/about_project_description"
+                    app:title="@string/about_project" />
+
+                <com.google.android.material.divider.MaterialDivider
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    app:dividerColor="#80808080"
+                    app:dividerInsetEnd="15dp"
+                    app:dividerInsetStart="15dp" />
+
+                <com.economix.ecopoints.ui.custom.ConfigOpenOption
+                    android:id="@+id/config_option_switch_about_dev"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/ic_js"
+                    app:subtitle="@string/about_dev_description"
+                    app:title="@string/about_dev" />
+
+                <com.google.android.material.divider.MaterialDivider
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    app:dividerColor="#80808080"
+                    app:dividerInsetEnd="15dp"
+                    app:dividerInsetStart="15dp" />
+
+                <com.economix.ecopoints.ui.custom.ConfigOpenOption
+                    android:id="@+id/config_option_switch_about_app"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/ic_about"
+                    app:subtitle="@string/about_app_description"
+                    app:title="@string/about_app" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

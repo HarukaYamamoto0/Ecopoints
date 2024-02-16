@@ -1,0 +1,104 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:elevation="0dp"
+    tools:context=".ui.activities.MainActivity" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="0dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="20dp" >
+
+        <include layout="@layout/layout_toolbar" />
+
+        <LinearLayout
+            android:id="@+id/layout_points"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="100dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_toolbar"
+            android:background="@drawable/background_circle"
+            android:gravity="center|center_horizontal" >
+
+            <TextView
+                android:id="@+id/textview_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8sp"
+                android:text="@string/total_of_points"
+                android:textColor="@color/primary"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                tools:ignore="SpUsage,TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/textview_eco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name_of_points"
+                android:textAllCaps="true"
+                android:textColor="@color/lime"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                tools:ignore="SpUsage,TextSizeCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_textview_extract"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_points"
+            android:background="@drawable/background_textview_rippler"
+            android:clickable="true"
+            android:focusable="true"
+            tools:ignore="TouchTargetSizeCheck" >
+
+            <TextView
+                android:id="@+id/textview_extract"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:duplicateParentState="true"
+                android:text="@string/textview_show_extract"
+                android:textColor="@color/primary"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textview_exchange_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_textview_extract"
+            android:gravity="center"
+            android:text="@string/hint_options_buy"
+            android:textColor="@color/gray"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/layout_exchange_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textview_exchange_options" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,24 @@
+<resources>
+
+    <declare-styleable name="ExchangeOptionCard">
+        <attr name="iconCard" format="reference" />
+        <attr name="textCard" format="string" />
+        <attr name="card" format="reference" />
+        <attr name="description" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ConfigOptionSwitch">
+        <attr name="icon" format="reference" />
+        <attr name="iconColor" format="reference" />
+        <attr name="title" format="string" />
+        <attr name="subtitle" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ConfigOpenOption">
+        <attr name="icon" format="reference" />
+        <attr name="iconColor" format="reference" />
+        <attr name="title" format="string" />
+        <attr name="subtitle" format="string" />
+    </declare-styleable>
+
+</resources>

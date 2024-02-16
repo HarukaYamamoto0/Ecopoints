@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+	<color name="white_10">#1AFFFFFF</color>
+    <color name="orange">#E0AE41</color>
+    <color name="green">#008000</color>
+    <color name="lime">#B5DB32</color> <!-- <color name="lime">#00ff00</color> -->
+    <color name="gray">#dcdcdc</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="snow">#FFFAFA</color>
+    <color name="amoled">#000000</color>
+    <color name="iconColor">#FFFAFA</color>
+
+    <!-- Overlay -->
+    <color name="primary">#E0AE41</color>
+    <color name="onPrimary">#f0cc7f</color>
+    <color name="secondary">#51425f</color>
+    <color name="surface">#643D67</color>
+    <color name="rippler">#80808080</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="gray_72">#7f7f7f</color>
+
+    <!-- Background -->
+    <color name="start_color">#59469D</color>
+    <color name="end_color">#643D67</color>
+
+</resources>

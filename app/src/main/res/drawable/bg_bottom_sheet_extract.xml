@@ -1,0 +1,20 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background normal -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/surface" />
+            <corners android:topLeftRadius="40dp" android:topRightRadius="40dp" />
+            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+        </shape>
+    </item>
+
+    <!-- Borderline no topo -->
+    <item android:top="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/gray_72" />
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- App Name -->
+    <string name="app_name">EcoPoints</string>
+
+    <!-- OnBoarding Screen -->
+    <string name="title1">Ganhe prêmios</string>
+    <string name="description1">Com o EcoPoints você pode ter a chance de ganhar prêmios, apenas fazendo as compras do dia a dia.</string>
+    <string name="title2">Troque por cupons</string>
+    <string name="description2">Você pode usar o pontos acumulados para trocar por cupons e descontos em nossas lojas</string>
+    <string name="title3">Troque por viagens</string>
+    <string name="description3">Você pode trocar os seus pontos por viagens para locais únicos</string>
+    <string name="app_name_part1">Eco</string>
+    <string name="app_name_part2">Points</string>
+    <string name="name_of_points">Ecos</string>
+    <string name="hint_options_buy">Veja onde você pode gastar:</string>
+    <string name="textview_show_extract">Veja o extrato</string>
+    <string name="total_of_points">1200</string>
+    <string name="btn_edit_perfil">Editar Perfil</string>
+    <string name="fake_cpf">137.400.773-01</string>
+    <string name="option">Opção</string>
+	<string name="no_browsers_found">Nenhum navegador foi encontrado nesse dispositivo 🤔</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet venenatis odio, in venenatis mauris luctus vel. Etiam pulvinar bibendum sem et suscipit. Morbi sagittis, velit quis feugiat dictum, orci lorem egestas mauris, non rutrum lectus odio eget mauris. In hac habitasse platea dictumst. Aenean in lobortis massa, ac eleifend leo. Phasellus quis tincidunt ipsum. Donec quis nisl iaculis, viverra sem id, posuere urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras feugiat rutrum varius. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In auctor rhoncus mi, quis hendrerit metus lobortis eget. Vivamus consequat, ex sit amet vehicula tempus, ligula nunc dictum sem, et fermentum nisi lorem non nisl.</string>
+    <string name="toast_internet_connection_required">Você precisa se reconectar à internet para continuar usando o aplicativo.</string>
+
+    <!-- Trading Option Titles -->
+    <string name="exchange_money_title">Dinheiro</string>
+    <string name="exchange_coupons_title">Cupons</string>
+    <string name="exchange_products_title">Produtos</string>
+    <string name="exchange_transfer_title">Transferir</string>
+    <string name="exchange_travel_title">Viagens</string>
+    <string name="exchange_gifts_title">Sorteios</string>
+
+    <!-- Exchange option descriptions -->
+    <string name="exchange_money_description">Troque seus pontos por dinheiro. Converta seus pontos em um valor monetário equivalente para depósito em conta bancária ou pagamento eletrônico.</string>
+    <string name="exchange_coupons_description">Troque seus pontos por cupons de desconto ou vouchers em lojas parceiras. Use os cupons para obter descontos em produtos ou serviços específicos.</string>
+    <string name="exchange_products_description">Troque seus pontos por produtos físicos. Escolha entre uma variedade de itens disponíveis no catálogo de prêmios, incluindo eletrônicos, acessórios, produtos de beleza, entre outros.</string>
+    <string name="exchange_transfer_description">Transfira seus pontos acumulados para outra pessoa. Compartilhe os benefícios do programa de fidelidade com amigos, familiares ou qualquer pessoa de sua escolha.</string>
+    <string name="exchange_travel_description">Troque seus pontos por viagens e experiências de viagem. Resgate passagens aéreas, hospedagem em hotéis, pacotes de viagem e atividades turísticas.</string>
+    <string name="exchange_raffle_description">Use seus pontos para participar de sorteios e concursos. Concorra a prêmios exclusivos, como viagens, produtos especiais e ingressos para eventos.</string>
+
+    <!-- Settings Titles -->
+    <string name="dark_mode">Modo Escuro</string>
+    <string name="notifications">Permitir Notificações</string>
+    <string name="location_access">Acesso à Localização</string>
+    <string name="theme">Tema</string>
+    <string name="sync_data">Sincronizar Dados</string>
+    <string name="language">Idioma</string>
+    <string name="about_project">Visite Nosso Site!!</string>
+    <string name="about_dev">Sobre o Desenvolver</string>
+    <string name="about_app">Sobre o Aplicativo</string>
+
+    <!-- Settings Descriptions -->
+    <string name="dark_mode_description">Ative o Modo Escuro para ter uma excelente experiência visual</string>
+    <string name="notifications_description">Seja notificado quando eventos importantes aparecerem</string>
+    <string name="location_access_description">Permita para melhorar a sua experiência</string>
+    <string name="theme_description">Escolha o tema preferido para personalizar a aparência do aplicativo</string>
+    <string name="sync_data_description">Sincronize automaticamente seus dados entre dispositivos</string>
+    <string name="language_description">Escolha o idioma preferido para usar o aplicativo</string>
+    <string name="about_project_description">Visite o site do nosso PI</string>
+    <string name="about_dev_description">Saiba mais sobre o HarukaYamamoto0</string>
+    <string name="about_app_description">Saiba mais sobre o aplicativo e suas funcionalidades</string>
+
+</resources>
